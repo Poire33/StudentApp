@@ -20,5 +20,17 @@ public class Main {
         System.out.println("Please enter student's course: ");
         course = scanner.nextLine();
         first.setCourse_name(course);
+
+        System.out.println("Please enter student's name: ");
+        name = scanner.nextLine();
+        Student second = new Student(name);
+
+        System.out.println("Please enter student's email: ");
+        email = scanner.nextLine();
+        second.setStudent_email(email);
+
+        System.out.println("Please enter student's course: ");
+        course = scanner.nextLine();
+        second.setCourse_name(course);
     }
 }
