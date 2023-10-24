@@ -37,16 +37,11 @@ public class Student {
         this.course_name = "";
     }
 
+    public Student(String student_name) {
+        this.student_name = student_name;
+    }
+
     public void input() {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter student's name: ");
-        this.student_name = scanner.nextLine();
-
-        System.out.println("Please enter student's email: ");
-        this.student_email = scanner.nextLine();
-
-        System.out.println("Please enter student's course: ");
-        this.course_name = scanner.nextLine();
     }
 }
