@@ -41,7 +41,9 @@ public class Student {
         this.student_name = student_name;
     }
 
-    public void input() {
-
+    public Student(String student_name, String student_email, String course_name) {
+        this.student_name = student_name;
+        this.student_email = student_email;
+        this.course_name = course_name;
     }
 }
